@@ -3852,6 +3852,11 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
+keen-slider@^6.8.0:
+  version "6.8.0"
+  resolved "https://registry.yarnpkg.com/keen-slider/-/keen-slider-6.8.0.tgz#43f54a033f46a41275a4462deb572b8989821a47"
+  integrity sha512-7xzjGqf4+Kralaf5KFzZWWvKEPNgkNSPafv2BTigFhTX+iOG0Nzw+caPxlsw5jxG/IpS/SWmcUWS5QLdxAs7tQ==
+
 keygrip@~1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/keygrip/-/keygrip-1.1.0.tgz#871b1681d5e159c62a445b0c74b615e0917e7226"
