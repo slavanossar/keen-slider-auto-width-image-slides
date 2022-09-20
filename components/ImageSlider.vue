@@ -24,22 +24,20 @@ const { images } = defineProps<Props>()
 
 let isDragging = $ref(false)
 
-const [root, slider] = $(
-  useKeenSlider({
-    selector: '.keen-slider img',
-    mode: 'free-snap',
-    slides: {
-      perView: 'auto',
-      spacing: 48,
-    },
-    dragEnded: () => {
-      isDragging = false
-    },
-    dragStarted: () => {
-      isDragging = true
-    },
-  }),
-)
+const [root, slider] = useKeenSlider({
+  selector: '.keen-slider img',
+  mode: 'free-snap',
+  slides: {
+    perView: 'auto',
+    spacing: 48,
+  },
+  dragEnded: () => {
+    isDragging = false
+  },
+  dragStarted: () => {
+    isDragging = true
+  },
+})
 </script>
 
 <style lang="postcss" scoped>
