@@ -8,7 +8,7 @@
       v-for="(image, index) in images"
       :key="index"
       :src="image"
-      class="block h-full"
+      class="h-full"
     />
   </div>
 </template>
