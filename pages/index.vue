@@ -10,7 +10,7 @@
           Images are not wrapped in
           <strong>.keen-slider__slide</strong> elements, works correctly on
           initial page load but has incorrect track width when navigating from
-          another page (use <em>Show sliders</em> toggle to simulate this)
+          another page, or when when toggled using the checkbox above
         </p>
         <ImageSlider :images="images" />
       </div>
