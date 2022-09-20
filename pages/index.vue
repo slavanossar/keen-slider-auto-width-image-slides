@@ -1,5 +1,5 @@
 <template>
-  <div class="space-y-4 p-24">
+  <div class="space-y-4">
     <div class="flex space-x-1">
       <input id="toggle" v-model="showSliders" type="checkbox" />
       <label for="toggle">Show sliders</label>
@@ -17,7 +17,7 @@
       <div class="space-y-4">
         <p class="max-w-xl">
           Images are wrapped in <strong>.keen-slider__slide</strong> elements,
-          breaks image sizing.
+          with style overrides to prevent image stretching, same result as above
         </p>
         <ImageSliderWithSlides :images="images" />
       </div>
