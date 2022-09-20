@@ -42,6 +42,10 @@ const [root, slider] = useKeenSlider({
 
 <style lang="postcss" scoped>
 .keen-slider {
-  @apply overflow-visible;
+  @apply block overflow-visible whitespace-nowrap;
+}
+
+.keen-slider .keen-slider__slide {
+  @apply inline-block w-auto;
 }
 </style>
