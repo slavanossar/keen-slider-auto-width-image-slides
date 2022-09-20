@@ -208,10 +208,15 @@
   resolved "https://registry.yarnpkg.com/@babel/helper-string-parser/-/helper-string-parser-7.18.10.tgz#181f22d28ebe1b3857fa575f5c290b1aaf659b56"
   integrity sha512-XtIfWmeNY3i4t7t4D2t02q50HvqHybPqW2ki1kosnvWCwuCMeo81Jf0gwr85jy/neUdg5XDdeFE/80DXiO+njw==
 
-"@babel/helper-validator-identifier@^7.15.7", "@babel/helper-validator-identifier@^7.18.6":
+"@babel/helper-validator-identifier@^7.15.7":
   version "7.18.6"
   resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.18.6.tgz#9c97e30d31b2b8c72a1d08984f2ca9b574d7a076"
   integrity sha512-MmetCkz9ej86nJQV+sFCxoGGrUbU3q02kgLciwkrt9QqEB7cP39oKEY0PakknEO0Gu20SskMRi+AYZ3b1TpN9g==
+
+"@babel/helper-validator-identifier@^7.18.6":
+  version "7.19.1"
+  resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.19.1.tgz#7eea834cf32901ffdc1a7ee555e2f9c27e249ca2"
+  integrity sha512-awrNfaMtnHUr653GgGEs++LlAvW6w+DcPrOliSMXWCKo597CwL5Acf/wWdNkf/tfEQE3mjkeD1YOVZOUV/od1w==
 
 "@babel/helper-validator-option@^7.18.6":
   version "7.18.6"
@@ -2971,7 +2976,7 @@ fast-diff@^1.1.2:
   resolved "https://registry.yarnpkg.com/fast-diff/-/fast-diff-1.2.0.tgz#73ee11982d86caaf7959828d519cfe927fac5f03"
   integrity sha512-xJuoT5+L99XlZ8twedaRf6Ax2TgQVxvgZOYoPKqZufmJib0tL2tegPBOZb1pVNgIhlqDlA0eO0c3wBvQcmzx4w==
 
-fast-glob@^3.2.11, fast-glob@^3.2.7, fast-glob@^3.2.9:
+fast-glob@^3.2.11, fast-glob@^3.2.12, fast-glob@^3.2.7, fast-glob@^3.2.9:
   version "3.2.12"
   resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.12.tgz#7f39ec99c2e6ab030337142da9e0c18f37afae80"
   integrity sha512-DVj4CQIYYow0BlaelwK1pHl5n5cRSJfM60UA0zK891sVInoPri2Ekj7+e1CT3/3qxXenpI+nBBmQAcJPJgaj4w==
@@ -3901,9 +3906,9 @@ jsonfile@^6.0.1:
     graceful-fs "^4.1.6"
 
 keen-slider@^6.8.0:
-  version "6.8.0"
-  resolved "https://registry.yarnpkg.com/keen-slider/-/keen-slider-6.8.0.tgz#43f54a033f46a41275a4462deb572b8989821a47"
-  integrity sha512-7xzjGqf4+Kralaf5KFzZWWvKEPNgkNSPafv2BTigFhTX+iOG0Nzw+caPxlsw5jxG/IpS/SWmcUWS5QLdxAs7tQ==
+  version "6.8.2"
+  resolved "https://registry.yarnpkg.com/keen-slider/-/keen-slider-6.8.2.tgz#be03e2225cde2a829df53e71c15caed66fbbe82a"
+  integrity sha512-vMVLPVfgTkLTNseKM42hnOJz/k/C4x4atCJqKRmPh2Mb4L/+Pzh4qvq9k6qT7/pKBxnsNxOlcxq80NoZq/N3Iw==
 
 keygrip@~1.1.0:
   version "1.1.0"
@@ -6503,13 +6508,15 @@ vite-plugin-checker@^0.5.1:
     vscode-uri "^3.0.2"
 
 vite-plugin-vue-type-imports@^0.2.0:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/vite-plugin-vue-type-imports/-/vite-plugin-vue-type-imports-0.2.1.tgz#8f1d51a5e1de057586250790883d7fc301820022"
-  integrity sha512-DeZ1u38sFWnrEU7ku6Dt7+CbfOfr/xirYILpDx3oYLpCjc6cTpTnH/FS+62bjXBUucjoMy8LE+fR6uaKYgHYsA==
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/vite-plugin-vue-type-imports/-/vite-plugin-vue-type-imports-0.2.2.tgz#33ec2fd05e98dc4292cccddf6f228732dc3f59ec"
+  integrity sha512-FuIcEZUu5OmoRkWSf5F+bSx6hdECd2VR5aOFUbZhwNDQQwfI11Hmf7wFLseuUvVb3JhPYeJfK+FQbe6Z9Bf/pA==
   dependencies:
-    "@babel/types" "^7.18.10"
-    fast-glob "^3.2.11"
+    "@babel/types" "^7.19.0"
+    debug "^4.3.4"
+    fast-glob "^3.2.12"
     local-pkg "^0.4.2"
+    picocolors "^1.0.0"
 
 "vite@^2.9.12 || ^3.0.0-0", vite@~3.1.0:
   version "3.1.3"
